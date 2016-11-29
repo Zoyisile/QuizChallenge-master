@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gala"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
+        android:text="Quiz challenge"/>
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iqte"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/exit"
+        android:layout_below="@+id/textView"
+        android:onClick="exitButton"
+        android:text="Exit"
+        android:layout_gravity="right"
+         />
+
+    <Button
+    android:id="@+id/next_button"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/exit"
+        android:textColor="#FFFFFF"
+    android:scaleType="center"
+    android:layout_marginLeft="210dp"
+    android:onClick="StartActivity"
+        android:layout_gravity="left"
+    android:text="next" />
+    </LinearLayout>
+
+    </LinearLayout>
+

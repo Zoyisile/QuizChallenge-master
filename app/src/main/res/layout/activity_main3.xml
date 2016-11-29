@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Here you put the rest of your current view-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    android:orientation="vertical"
+    tools:context="com.example.admin.quizchallenge.Main3Activity">
+
+    <ImageView android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="1000dp"
+        android:maxHeight="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/religiona" />
+
+    <TextView
+        android:id="@+id/aristocle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16sp"
+        android:text="There are about 34,010 Christian denominations in the world."
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/plato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:textColor="#EF5350"
+            android:text="True"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/plato_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#EF5350"
+            android:text="False"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/raini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16sp"
+        android:text="The Bible was written in three languages: Hebrew, Aramaic, and Koine Greek."
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/raini_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:textColor="#EF5350"
+            android:text="True"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/raini_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#EF5350"
+            android:text="False"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/gala_loe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16sp"
+        android:text="The 12 disciples were not allowed to carry food, money, or extra clothing."
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/gala_loe_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:textColor="#EF5350"
+            android:text="True"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/gala_loe_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#EF5350"
+            android:text="False"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/ein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16sp"
+        android:text="John was the only apostle who witnessed the crucifixion of Jesus."
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/einstain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:textColor="#EF5350"
+            android:text="True"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/einstain_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#EF5350"
+            android:text="False"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16sp"
+        android:text="There are more than 10,000 distinct religious groups in the world."
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/yes_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:textColor="#EF5350"
+            android:text="True"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/no_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#EF5350"
+            android:text="False"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RadioGroup>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="40"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="your answer"
+    android:textAlignment="center"
+    android:textSize="20dp"
+        android:textColor="#EF5350"
+    android:id="@+id/display_text"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/exit"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="90dp"
+            android:onClick="exitButton"
+            android:text="Back"
+            android:layout_gravity="right"/>
+
+    <Button
+        android:id="@+id/next_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:background="@drawable/exit"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="190dp"
+        android:layout_below="@+id/textView"
+        android:onClick="StartActivity"
+        android:text="Results" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/andolo"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Topic "
+        android:layout_marginLeft="140dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/philosophy"
+        android:onClick="philosophyOne"
+        android:background="@drawable/buttorn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="140dp"
+
+        android:text="Philosophy" />
+
+    <Button
+        android:id="@+id/religion"
+        android:onClick="religion"
+        android:background="@drawable/buttorns"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="20dp"
+        android:text="Religion" />
+    <Button
+        android:id="@+id/mathematics"
+        android:layout_width="150dp"
+        android:onClick="mathematics"
+        android:background="@drawable/buttornsi"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="140dp"
+        android:text="Mathematics" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/exit"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="170dp"
+        android:layout_below="@+id/textView"
+        android:onClick="exitButton"
+        android:text="Exit" />
+
+
+
+
+
+</LinearLayout>
